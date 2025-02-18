@@ -1,7 +1,6 @@
 def countVowels(words):
 
     count = 0
-
     vowel = ['a', 'e', 'i', 'o', 'u']
 
     for word in words:
