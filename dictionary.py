@@ -86,7 +86,7 @@ Skillsets['Node'] = 3     #we can change the value and it won't matter much!!!!
 
 print(Skillsets)
 
-print(Skillsets.values()) #get the values list 
-
+print(Skillsets.values()) #get the values list  --> all together though
+ 
 
 print(len(Skillsets))
