@@ -68,25 +68,36 @@
 ####################################################################
 ###########################IMPORTANT$###############################
 
-Skillsets = {"React": 1,
-             "Node": 2,
-             "Firebase": 3,
-             "MongoDB": 4,
-             "Express": 5,
-            }
+# Skillsets = {"React": 1,
+#              "Node": 2,
+#              "Firebase": 3,
+#              "MongoDB": 4,
+#              "Express": 5,
+#             }
 
-Skillsets['Next.js'] = 6
-Skillsets['Nest.js'] = 7
-Skillsets['Supabase'] = 8 #add to the dictionary
+# Skillsets['Next.js'] = 6
+# Skillsets['Nest.js'] = 7
+# Skillsets['Supabase'] = 8 #add to the dictionary
 
-print(Skillsets)
+# print(Skillsets)
 
-del Skillsets['Supabase'] #delete from the hashmap/dictionary
-Skillsets['Node'] = 3     #we can change the value and it won't matter much!!!!
+# del Skillsets['Supabase'] #delete from the hashmap/dictionary
+# Skillsets['Node'] = 3     #we can change the value and it won't matter much!!!!
 
-print(Skillsets)
+# print(Skillsets)
 
-print(Skillsets.values()) #get the values list  --> all together though
+# print(Skillsets.values()) #get the values list  --> all together though
  
 
-print(len(Skillsets))
+# print(len(Skillsets))
+
+#####################################################################
+
+def dictionary(dics):
+
+    return dics.values()
+
+
+print(dictionary({"red":1,
+                  "blue":2}))
+
