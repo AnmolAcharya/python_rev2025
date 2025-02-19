@@ -9,7 +9,6 @@ word = "Vamos Nepal"
 
 print(stringer(word))
 
-
 num = 9
 
 str_num = str(num)
