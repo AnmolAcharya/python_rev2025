@@ -64,3 +64,29 @@
 #                   "yellow":9,
 #                   "green":10
 #                   }))
+
+####################################################################
+###########################IMPORTANT$###############################
+
+Skillsets = {"React": 1,
+             "Node": 2,
+             "Firebase": 3,
+             "MongoDB": 4,
+             "Express": 5,
+            }
+
+Skillsets['Next.js'] = 6
+Skillsets['Nest.js'] = 7
+Skillsets['Supabase'] = 8 #add to the dictionary
+
+print(Skillsets)
+
+del Skillsets['Supabase'] #delete from the hashmap/dictionary
+Skillsets['Node'] = 3     #we can change the value and it won't matter much!!!!
+
+print(Skillsets)
+
+print(Skillsets.values()) #get the values list 
+
+
+print(len(Skillsets))
