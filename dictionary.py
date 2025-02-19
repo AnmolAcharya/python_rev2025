@@ -93,11 +93,30 @@
 
 #####################################################################
 
-def dictionary(dics):
+# def dictionary(dics):
 
-    return dics.values()
+#     return dics.values()
 
 
-print(dictionary({"red":1,
-                  "blue":2}))
+# print(dictionary({"red":1,
+#                   "blue":2}))
+
+####################################################################
+
+def dictionary(dicts):
+
+    for d in dicts:
+        if 'green' in dicts:
+            return "We have the signal"
+        else:
+            return "retreat"
+        
+data = {"red":1,
+                  "blue":2,
+                  "green": 4
+                  }
+
+print(dictionary(data))
+
+print("red" in data) #has key has been removed form python 3 and replaced by the in operator ><><><><><><
 
