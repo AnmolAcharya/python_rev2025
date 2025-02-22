@@ -39,6 +39,18 @@ print(thirdLargest([77,55,43,22,23]))
 # print(secondlargest)
 
 
+        # n = len(nums)
+        # L,R = 0, n
+
+        # while L < R:
+        #     if nums[L] == val:
+        #         nums[L] = nums[R-1]
+        #         R -= 1
+        #     else:
+        #         L +=1 
+        # return L 
+
+
 
 
 
