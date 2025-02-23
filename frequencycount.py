@@ -12,7 +12,10 @@ for num in num_list:
 
 freq = tuple(dict_stuff.values())
 
+# return [num for num in num_list if num % 2 == 0]
+
 print(freq)
+# print(lister)
 
 
 
