@@ -20,17 +20,36 @@
 
 ################################################################################################################################################################
 
+# employees = [
+#     {"name": "John", "age": 30, "salary": 50000},
+#     {"name": "Alice", "age": 25, "salary": 60000},
+#     {"name": "Bob", "age": 28, "salary": 60000},
+#     {"name": "Eve", "age": 35, "salary": 45000}
+# ]
+
+# # Corrected sorting function (salary descending, age ascending)
+# def sort_key(employee):
+#     return (-employee["salary"], employee["age"])  # Negative salary for descending order
+
+# sorted_employees = sorted(employees, key=sort_key)
+
+# print(sorted_employees)
+
+#####################################################################################################################3333
 employees = [
     {"name": "John", "age": 30, "salary": 50000},
+    {"name": "Aaaaa", "age": 25, "salary": 60000},
     {"name": "Alice", "age": 25, "salary": 60000},
     {"name": "Bob", "age": 28, "salary": 60000},
     {"name": "Eve", "age": 35, "salary": 45000}
 ]
 
-# Corrected sorting function (salary descending, age ascending)
+#salary highest, age smallest, alphabetically
+
 def sort_key(employee):
-    return (employee["salary"], employee["age"])  # Negative salary for descending order
+    return (-employee["salary"], employee["age"], employee["name"])
 
-sorted_employees = sorted(employees, key=sort_key)
 
-print(sorted_employees)
+sorted_employee = sorted(employees, key=sort_key)
+
+print(sorted_employee)
