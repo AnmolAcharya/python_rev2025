@@ -103,20 +103,34 @@
 
 ####################################################################
 
-def dictionary(dicts):
+# def dictionary(dicts):
 
-    for d in dicts:
-        if 'green' in dicts:
-            return "We have the signal"
-        else:
-            return "retreat"
+#     for d in dicts:
+#         if 'green' in dicts:
+#             return "We have the signal"
+#         else:
+#             return "retreat"
         
-data = {"red":1,
-                  "blue":2,
-                  "green": 4
-                  }
+# data = {"red":1,
+#                   "blue":2,
+#                   "green": 4
+#                   }
 
-print(dictionary(data))
+# print(dictionary(data))
 
-print("red" in data) #has key has been removed form python 3 and replaced by the in operator ><><><><><><
+# print("red" in data) #has key has been removed form python 3 and replaced by the in operator ><><><><><><
 
+###########################################
+
+
+myDict = {"a": 90, "b" : 87}
+
+for key in myDict:
+    print(key, myDict[key])
+
+for val in myDict.values():
+    # print(list(myDict.values()))
+    print(val, end=" ")
+
+for key, val in myDict.items():
+    print(key,val)
