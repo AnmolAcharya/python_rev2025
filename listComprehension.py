@@ -18,9 +18,26 @@
 
 def listComprehension():
 
-    word = "Python"
+    words = "Pythonoooo"
+    
+    
+    return len([char for char in words if char in "aeiou"])
 
-    lister = [char for char in word if char in "aeiou"]
-    print(lister)
+    # return len(lister)
 
-listComprehension()
+    # lister = [char for char in word if char in "aeiou"]
+    # print(lister)
+
+    # counter = 0
+
+    # for char in words:
+    #     if char in "aeiou":
+    #         counter += 1 
+
+    # return counter
+
+
+
+print(listComprehension())
+
+

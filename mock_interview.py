@@ -63,20 +63,53 @@
 
 ###########################################################
 
-def product_except_self(nums):
+# def product_except_self(nums):
 
-    res = []
+#     res = []
 
-    for i in range(len(nums)):
-        product = 1
-        for j in range(len(nums)):
-            if i != j:
-                product *= nums[j]
-        res.append(product)
+#     for i in range(len(nums)):
+#         product = 1
+#         for j in range(len(nums)):
+#             if i != j:
+#                 product *= nums[j]
+#         res.append(product)
 
-    return res
+#     return res
 
-nums = [1,2,3,4]
-print(product_except_self(nums))
+# nums = [1,2,3,4]
+# print(product_except_self(nums))
 
 ########################################################
+
+########## FIZZ BUZZ Extended ##########################
+
+# def FizzBazzBuzz(num):
+
+#     res = []
+
+#     for num in range(1, num+1):
+#         if num % 3 == 0 and num % 5 == 0 and num % 7 == 0:
+#             res.append("FizzBuzzBazz")
+#         elif num % 3 == 0 and num % 5 == 0:
+#             res.append("FizzBuzz")
+#         elif num % 3 == 0 and num % 7 == 0:
+#             res.append("FizzBazz")
+#         elif num % 5 == 0 and num % 7 == 0:
+#             res.append("BuzzBazz")
+#         elif num % 3 == 0:
+#             res.append("Fizz")
+#         elif num % 5 == 0:
+#             res.append("Buzz")
+#         elif num % 7 == 0:
+#             res.append("Bazz")
+#         else:
+#             res.append(str(num))
+
+#     return res
+
+
+# num = 105
+# print(FizzBazzBuzz(num))
+
+
+#############333

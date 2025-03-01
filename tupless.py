@@ -18,3 +18,5 @@ list_tuple[2] = 69
 
 print(list_tuple)
 
+############Mountain array -LC ########################
+

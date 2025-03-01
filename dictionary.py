@@ -134,3 +134,7 @@ for val in myDict.values():
 
 for key, val in myDict.items():
     print(key,val)
+
+print(myDict["a"])
+
+print(list(myDict.values()))
