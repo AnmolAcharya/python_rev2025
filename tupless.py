@@ -20,3 +20,4 @@ print(list_tuple)
 
 ############Mountain array -LC ########################
 
+### Part 2 starts now 
