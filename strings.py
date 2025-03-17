@@ -26,19 +26,21 @@
 ############################################################################
 
 
-def find_first_char(strs):
+# def find_first_char(strs):
 
-    hash_map = {}
+#     hash_map = {}
 
-    # for i in range(len(strs)):
-                for char in strs:
-                    hash_map[char] += 1 
+#     # for i in range(len(strs)):
+#                 for char in strs:
+#                     hash_map[char] += 1 
 
-                hash_map[char] = 1
+#                 hash_map[char] = 1
 
-    for 
+#     for 
 
 
-strs = "leetcode"
+# strs = "leetcode"
 
-print(find_first_char(strs))
+# print(find_first_char(strs))
+
+##########################33
