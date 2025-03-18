@@ -41,6 +41,6 @@
 
 # strs = "leetcode"
 
-# print(find_first_char(strs))
+# print(find_first_char(strs)) # helps us find the first character from the strings section 
 
 ##########################33
