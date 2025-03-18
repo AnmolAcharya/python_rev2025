@@ -67,18 +67,18 @@
 ##########################################
 
 
-def find_first_char(strs):
+# def find_first_char(strs):
 
-    hash_map = {}
+#     hash_map = {}
 
-    for char in strs:
-        if char in hash_map:
-            hash_map[char] += 1
-        else:
-            hash_map[char] = 1
+#     for char in strs:
+#         if char in hash_map:
+#             hash_map[char] += 1
+#         else:
+#             hash_map[char] = 1
 
-    return max(hash_map.values())
+#     return max(hash_map.values())
 
 
-strs = "eetcode"
-print(find_first_char(strs))
+# strs = "eetcode"
+# print(find_first_char(strs)) #<<<<this code snippet helps us grab the first element of the string that has the least number of frequency
