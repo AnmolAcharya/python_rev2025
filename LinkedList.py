@@ -80,39 +80,44 @@
 
 #################################################
 
-class Node:
+# class Node:
 
-    def __init__(self, data):
-        self.data = data
-        self.next = None 
+#     def __init__(self, data):
+#         self.data = data
+#         self.next = None 
 
-def traverseLL(head):
+# def countLL(head):
 
-    while head is not None:
+#     length = 0
 
-        print(head.data, end = " ")
+#     curr = head
 
-        head = head.next
+#     while curr is not None:
 
-    print()
+#         curr = curr.next
+#         length += 1
 
-
-# Driver code
-def main():
-
-    # Create a hard-coded linked list:
-    # 10 -> 20 -> 30 -> 40
-    head = Node(10)
-    head.next = Node(20)
-    head.next.next = Node(30)
-    head.next.next.next = Node(40)
-
-    # Example of traversing the node and printing
-
-    traverseLL(head)
+#     return length
 
 
-if __name__ == "__main__":
-    main()
+# # Driver code
+# def main():
+
+#     # Create a hard-coded linked list:
+#     # 10 -> 20 -> 30 -> 40
+#     head = Node(10)
+#     head.next = Node(20)
+#     head.next.next = Node(30)
+#     head.next.next.next = Node(40)
+
+#     # Example of traversing the node and printing
+
+#     print(countLL(head))
+
+
+# if __name__ == "__main__":
+#     main()
+
+##########
 
         
