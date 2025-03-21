@@ -54,6 +54,24 @@
 
 ################################################################################
 
+# def printtillOne(num):
 
+#     if num == 0:
+#         return 
+    
+#     printtillOne(num -1)
+#     print(num, end=" ") 
 
+# num = 5
+# (printtillOne(num))
 
+def printTillOne(num):
+
+    for i in range(1, num+1):
+    # i = 1
+    # while i < (num+1):
+        print(i, end = " ")
+        i+= 1
+
+num = 5
+(printTillOne(num))
