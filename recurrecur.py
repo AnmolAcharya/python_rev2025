@@ -26,14 +26,34 @@
 
 ############Sum of digits recursively:
 
-def sumDigits(num):
+# def sumDigits(num):
 
-    if num == 0:
-        return 0
+#     if num == 0:
+#         return 0
     
-    return (num%10) + sumDigits(num // 10)
+#     return (num%10) + sumDigits(num // 10) #get the last digit from num%10 and remove last digit by //10
 
-num = 123455
+# num = 123455
 
-print(sumDigits(num))
+# print(sumDigits(num))
+
+###############################################################################
+
+####Reverse a string recursively :
+
+# def revStringRecur(str):
+
+#     if len(str) <= 1:
+#         return str
+    
+
+#     return revStringRecur(str[1:]) + str[0]
+
+# str = "abcde"
+# print(revStringRecur(str))
+
+################################################################################
+
+
+
 
