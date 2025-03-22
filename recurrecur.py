@@ -65,13 +65,40 @@
 # num = 5
 # (printtillOne(num))
 
-def printTillOne(num):
+# def printTillOne(num):
 
-    for i in range(1, num+1):
-    # i = 1
-    # while i < (num+1):
-        print(i, end = " ")
-        i+= 1
+#     for i in range(1, num+1):
+#     # i = 1
+#     # while i < (num+1):
+#         print(i, end = " ")
+#         i+= 1
 
-num = 5
-(printTillOne(num))
+# num = 5
+# (printTillOne(num))
+
+############################################rev in decr########################
+
+# nums = 5
+# for i in range(nums, 0, -1):
+
+#     print(i, end = " ")
+#     i += 1
+
+def printrevOrder(nums):
+
+    if nums == 0:
+        return 
+    
+    # for i in range(nums, 0, -1): <<<<<<<<<<<<<<<<<<<<<<<<<<<- We don't need loop if we are using recursion 
+    #     printrevOrder(nums -1)
+    #     print(nums, end=" ")
+    #     i += 1
+
+    print(nums, end=" ")
+    printrevOrder(nums - 1)
+    
+
+nums = 5
+printrevOrder(nums)
+
+
