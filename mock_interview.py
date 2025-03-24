@@ -113,3 +113,49 @@
 
 
 #############333
+
+def topTwo(nums):
+
+    n = len(nums)
+    hash_map = {}
+
+    for i in range(n):
+        if nums[i] in hash_map:
+            hash_map[nums[i]] += 1
+        else:
+            hash_map[nums[i]] = 1
+
+
+    # res = [value for value in hash_map.items() if value > 1]
+    res = [key for key, value in hash_map.items() if value > 1]
+    return res 
+
+
+
+nums = [1, 2, 3, 2, 1, 4]
+# nums =  [5, 6, 7, 8]
+
+print(topTwo(nums))
+# def topTwo(nums):
+
+#     n = len(nums)
+#     hash_map = {}
+
+#     for i in range(n):
+#         if nums[i] in hash_map:
+#             hash_map[nums[i]] += 1
+#         else:
+#             hash_map[nums[i]] = 1
+
+#     sorted_items = sorted(hash_map.items(), key=lambda x: (-x[1], -x[0]))
+#     result = [item[0] for item in sorted_items[:2]]
+
+#     return result
+
+
+
+
+
+# nums = [1, 3, 1, 3, 2, 1, 5, 5, 5, 2]
+
+# print(topTwo(nums))

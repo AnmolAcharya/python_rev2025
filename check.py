@@ -18,7 +18,6 @@ u_str2 = set(str2)
 
 common_str = u_str1.intersection(u_str2)
 
-
 if not common_str:
     print("NO")
 else:
