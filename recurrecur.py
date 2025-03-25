@@ -78,27 +78,52 @@
 
 ############################################rev in decr########################
 
+# # nums = 5
+# # for i in range(nums, 0, -1):
+
+# #     print(i, end = " ")
+# #     i += 1
+
+# def printrevOrder(nums):
+
+#     if nums == 0:
+#         return 
+    
+#     # for i in range(nums, 0, -1): <<<<<<<<<<<<<<<<<<<<<<<<<<<- We don't need loop if we are using recursion 
+#     #     printrevOrder(nums -1)
+#     #     print(nums, end=" ")
+#     #     i += 1
+
+#     print(nums, end=" ")
+#     printrevOrder(nums - 1)
+    
+
 # nums = 5
-# for i in range(nums, 0, -1):
+# printrevOrder(nums)
 
-#     print(i, end = " ")
-#     i += 1
+#############################################################################
 
-def printrevOrder(nums):
-
-    if nums == 0:
-        return 
-    
-    # for i in range(nums, 0, -1): <<<<<<<<<<<<<<<<<<<<<<<<<<<- We don't need loop if we are using recursion 
-    #     printrevOrder(nums -1)
-    #     print(nums, end=" ")
-    #     i += 1
-
-    print(nums, end=" ")
-    printrevOrder(nums - 1)
-    
-
-nums = 5
-printrevOrder(nums)
+#Count the total number of vowel occurences in a string :
 
 
+# def countVowel(str):
+
+#     count = 0
+
+#     for char in str:
+#         if char in {'a','e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}:
+#             count += 1
+
+#     return count 
+
+# str = "AppleUmbrella"
+# print(countVowel(str))
+
+
+#####################################################################################################
+
+# def greet_all(*args,**kwargs):
+#     for name in args:
+#         print(f"Hello {name}, role: {kwargs}")
+
+# greet_all("Anmol", "Sam", "Lucas", role1 ="CEO", role2="worker", role="STUDENT")
