@@ -127,3 +127,27 @@
 #         print(f"Hello {name}, role: {kwargs}")
 
 # greet_all("Anmol", "Sam", "Lucas", role1 ="CEO", role2="worker", role="STUDENT")
+
+#################################################################################################
+
+def hashRev(nums):
+
+    hash_map = {}
+
+    for i in range(len(nums)):
+        if nums[i] in hash_map:
+            hash_map[nums[i]] += 1
+        else:
+            hash_map[nums[i]] = 1
+
+    max_freq_val =  max(hash_map.values())
+
+    for key,value in hash_map.items():
+        if value == max_freq_val:
+            res = key
+
+    return res 
+
+
+nums = [1,2,3,1,2,3,4,5,32,3,1,1,1,1,1,1,1,1]
+print(hashRev(nums))
