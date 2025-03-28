@@ -152,4 +152,5 @@ def hashRev(nums):
 nums = [1,2,3,1,2,3,4,5,32,3,1,1,1,1,1,1,1,1]
 print(hashRev(nums))
 
-#$$$
+#$$$ 
+###continuing leetcode"""'''
