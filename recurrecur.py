@@ -140,7 +140,7 @@ def hashRev(nums):
         else:
             hash_map[nums[i]] = 1
 
-    max_freq_val =  max(hash_map.values())s
+    max_freq_val =  max(hash_map.values())
 
     for key,value in hash_map.items():
         if value == max_freq_val:
