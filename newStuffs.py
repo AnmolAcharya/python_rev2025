@@ -17,3 +17,6 @@
 ##def rev string recursively <><><>
 
 ###find the max elem from the unsorted array: 
+
+
+###Leetcode -> Binary tree easy and medium 
