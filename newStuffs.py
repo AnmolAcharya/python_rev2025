@@ -22,3 +22,7 @@
 ###Leetcode -> Binary tree easy and medium 
 
 ##LC -> Lowest Common ANCESTOR (LCA) in a Binary Search Tree (BST)
+
+##Inorder and preorder traversal of a Binary tree >>>>>
+
+##Assignments 
