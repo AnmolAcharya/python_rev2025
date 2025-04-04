@@ -23,6 +23,7 @@
 
 ##LC -> Lowest Common ANCESTOR (LCA) in a Binary Search Tree (BST)
 
-##Inorder and preorder traversal of a Binary tree >>>>>
+##Inorder and preorder traversal of a Binary tree >>>>> LC 105, 106 & 889 PATTERN Recognitons 
 
 ##Assignments 
+
